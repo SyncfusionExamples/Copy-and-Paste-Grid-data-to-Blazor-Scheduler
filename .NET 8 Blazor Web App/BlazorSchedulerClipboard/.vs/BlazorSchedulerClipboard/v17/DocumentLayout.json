@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86E5C-7472-482B-AC96-B43D148CEA87}|BlazorSchedulerClipboard\\BlazorSchedulerClipboard.csproj|d:\\blazor_scheduler_clipboard\\copy-and-paste-grid-data-to-blazor-scheduler\\.net 8 blazor web app\\blazorschedulerclipboard\\blazorschedulerclipboard\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CC86E5C-7472-482B-AC96-B43D148CEA87}|BlazorSchedulerClipboard\\BlazorSchedulerClipboard.csproj|solutionrelative:blazorschedulerclipboard\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68A80C3-EF2E-46FE-844F-5EF1464A5FFC}|BlazorSchedulerClipboard.Client\\BlazorSchedulerClipboard.Client.csproj|d:\\blazor_scheduler_clipboard\\copy-and-paste-grid-data-to-blazor-scheduler\\.net 8 blazor web app\\blazorschedulerclipboard\\blazorschedulerclipboard.client\\pages\\scheduler.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C68A80C3-EF2E-46FE-844F-5EF1464A5FFC}|BlazorSchedulerClipboard.Client\\BlazorSchedulerClipboard.Client.csproj|solutionrelative:blazorschedulerclipboard.client\\pages\\scheduler.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68A80C3-EF2E-46FE-844F-5EF1464A5FFC}|BlazorSchedulerClipboard.Client\\BlazorSchedulerClipboard.Client.csproj|d:\\blazor_scheduler_clipboard\\copy-and-paste-grid-data-to-blazor-scheduler\\.net 8 blazor web app\\blazorschedulerclipboard\\blazorschedulerclipboard.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C68A80C3-EF2E-46FE-844F-5EF1464A5FFC}|BlazorSchedulerClipboard.Client\\BlazorSchedulerClipboard.Client.csproj|solutionrelative:blazorschedulerclipboard.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86E5C-7472-482B-AC96-B43D148CEA87}|BlazorSchedulerClipboard\\BlazorSchedulerClipboard.csproj|d:\\blazor_scheduler_clipboard\\copy-and-paste-grid-data-to-blazor-scheduler\\.net 8 blazor web app\\blazorschedulerclipboard\\blazorschedulerclipboard\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CC86E5C-7472-482B-AC96-B43D148CEA87}|BlazorSchedulerClipboard\\BlazorSchedulerClipboard.csproj|solutionrelative:blazorschedulerclipboard\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86E5C-7472-482B-AC96-B43D148CEA87}|BlazorSchedulerClipboard\\BlazorSchedulerClipboard.csproj|d:\\blazor_scheduler_clipboard\\copy-and-paste-grid-data-to-blazor-scheduler\\.net 8 blazor web app\\blazorschedulerclipboard\\blazorschedulerclipboard\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CC86E5C-7472-482B-AC96-B43D148CEA87}|BlazorSchedulerClipboard\\BlazorSchedulerClipboard.csproj|solutionrelative:blazorschedulerclipboard\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86E5C-7472-482B-AC96-B43D148CEA87}|BlazorSchedulerClipboard\\BlazorSchedulerClipboard.csproj|d:\\blazor_scheduler_clipboard\\copy-and-paste-grid-data-to-blazor-scheduler\\.net 8 blazor web app\\blazorschedulerclipboard\\blazorschedulerclipboard\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CC86E5C-7472-482B-AC96-B43D148CEA87}|BlazorSchedulerClipboard\\BlazorSchedulerClipboard.csproj|solutionrelative:blazorschedulerclipboard\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68A80C3-EF2E-46FE-844F-5EF1464A5FFC}|BlazorSchedulerClipboard.Client\\BlazorSchedulerClipboard.Client.csproj|d:\\blazor_scheduler_clipboard\\copy-and-paste-grid-data-to-blazor-scheduler\\.net 8 blazor web app\\blazorschedulerclipboard\\blazorschedulerclipboard.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68A80C3-EF2E-46FE-844F-5EF1464A5FFC}|BlazorSchedulerClipboard.Client\\BlazorSchedulerClipboard.Client.csproj|solutionrelative:blazorschedulerclipboard.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86E5C-7472-482B-AC96-B43D148CEA87}|BlazorSchedulerClipboard\\BlazorSchedulerClipboard.csproj|d:\\blazor_scheduler_clipboard\\copy-and-paste-grid-data-to-blazor-scheduler\\.net 8 blazor web app\\blazorschedulerclipboard\\blazorschedulerclipboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC86E5C-7472-482B-AC96-B43D148CEA87}|BlazorSchedulerClipboard\\BlazorSchedulerClipboard.csproj|solutionrelative:blazorschedulerclipboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Scheduler.razor",
+              "DocumentMoniker": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard.Client\\Pages\\Scheduler.razor",
+              "RelativeDocumentMoniker": "BlazorSchedulerClipboard.Client\\Pages\\Scheduler.razor",
+              "ToolTip": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard.Client\\Pages\\Scheduler.razor",
+              "RelativeToolTip": "BlazorSchedulerClipboard.Client\\Pages\\Scheduler.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T16:01:09.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorSchedulerClipboard\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorSchedulerClipboard\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:59:28.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BlazorSchedulerClipboard\\Components\\Routes.razor",
+              "ToolTip": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard\\Components\\Routes.razor",
+              "RelativeToolTip": "BlazorSchedulerClipboard\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:59:24.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorSchedulerClipboard\\Components\\App.razor",
+              "ToolTip": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard\\Components\\App.razor",
+              "RelativeToolTip": "BlazorSchedulerClipboard\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:57:49.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard.Client\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorSchedulerClipboard.Client\\Program.cs",
+              "ToolTip": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard.Client\\Program.cs",
+              "RelativeToolTip": "BlazorSchedulerClipboard.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:57:22.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorSchedulerClipboard\\Program.cs",
+              "ToolTip": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard\\Program.cs",
+              "RelativeToolTip": "BlazorSchedulerClipboard\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:57:11.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorSchedulerClipboard\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard\\Components\\_Imports.razor",
+              "RelativeToolTip": "BlazorSchedulerClipboard\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:56:55.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorSchedulerClipboard.Client\\_Imports.razor",
+              "ToolTip": "D:\\Blazor_Scheduler_Clipboard\\Copy-and-Paste-Grid-data-to-Blazor-Scheduler\\.NET 8 Blazor Web App\\BlazorSchedulerClipboard\\BlazorSchedulerClipboard.Client\\_Imports.razor",
+              "RelativeToolTip": "BlazorSchedulerClipboard.Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:56:44.424Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
