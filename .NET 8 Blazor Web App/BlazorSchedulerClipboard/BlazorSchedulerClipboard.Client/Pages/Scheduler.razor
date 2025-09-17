@@ -1,0 +1,146 @@
+﻿@page "/"
+@rendermode InteractiveAuto
+
+@using Syncfusion.Blazor.Schedule
+@using Syncfusion.Blazor.Grids
+@using System.Text.Json
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <SfSchedule TValue="AppointmentData" @ref="ScheduleRef" Height="550px" Width="100%"
+                        @bind-SelectedDate="@CurrentDate" AllowClipboard="true" ShowQuickInfo="false">
+                <ScheduleEvents TValue="AppointmentData" Paste="OnBeforePaste"></ScheduleEvents>
+                <ScheduleEventSettings DataSource="@ScheduleData"></ScheduleEventSettings>
+                <ScheduleViews>
+                    <ScheduleView Option="View.Day"></ScheduleView>
+                    <ScheduleView Option="View.Week"></ScheduleView>
+                    <ScheduleView Option="View.WorkWeek"></ScheduleView>
+                    <ScheduleView Option="View.Month"></ScheduleView>
+                    <ScheduleView Option="View.Agenda"></ScheduleView>
+                </ScheduleViews>
+            </SfSchedule>
+        </div>
+        <div class="col-lg-6">
+            <SfGrid @ref="GridRef" DataSource="@GridData" AllowSelection="true" Width="100%" CssClass="drag-grid">
+                <GridColumns>
+                    <GridColumn Field="OrderID" HeaderText="Order ID" Width="90" TextAlign="TextAlign.Right"></GridColumn>
+                    <GridColumn Field="CustomerID" HeaderText="Customer ID" Width="100"></GridColumn>
+                    <GridColumn Field="ShipCity" HeaderText="Ship City" Width="100"></GridColumn>
+                    <GridColumn Field="ShipName" HeaderText="Ship Name" Width="130"></GridColumn>
+                    <GridColumn Field="OrderDate" HeaderText="Order Date" Width="100" Format="d" Type="ColumnType.Date"></GridColumn>
+                </GridColumns>
+            </SfGrid>
+        </div>
+    </div>
+</div>
+
+@code {
+    private DateTime CurrentDate { get; set; } = new DateTime(2024, 1, 15);
+    private SfSchedule<AppointmentData> ScheduleRef;
+    private SfGrid<OrderData> GridRef;
+
+    private List<AppointmentData> ScheduleData { get; set; } = new List<AppointmentData>
+    {
+        new AppointmentData {
+            Id = 1,
+            Subject = "Meeting",
+            StartTime = new DateTime(2024, 1, 15, 10, 0, 0),
+            EndTime = new DateTime(2024, 1, 15, 11, 30, 0),
+            Location = "Conference Room",
+            Description = "Monthly Status Update"
+        },
+        new AppointmentData {
+            Id = 2,
+            Subject = "Team Lunch",
+            StartTime = new DateTime(2024, 1, 16, 12, 0, 0),
+            EndTime = new DateTime(2024, 1, 16, 13, 0, 0),
+            Location = "Cafeteria",
+            Description = "Team Building"
+        }
+    };
+
+    private List<OrderData> GridData { get; set; } = new List<OrderData>
+    {
+        new OrderData { OrderID = 10248, CustomerID = "VINET", Role = "Admin", EmployeeID = 5,
+            ShipName = "Vins et alcools Chevalier", ShipCity = "Reims", ShipAddress = "59 rue de l Abbaye",
+            ShipRegion = "CJ", Mask = "1111", ShipPostalCode = "51100", ShipCountry = "France", Freight = 32.38, Verified = true,
+            OrderDate = new DateTime(2024, 1, 1) },
+        new OrderData { OrderID = 10249, CustomerID = "TOMSP", Role = "Employee", EmployeeID = 6,
+            ShipName = "Toms Spezialitäten", ShipCity = "Münster", ShipAddress = "Luisenstr. 48",
+            ShipRegion = "CJ", Mask = "2222", ShipPostalCode = "44087", ShipCountry = "Germany", Freight = 11.61, Verified = false,
+            OrderDate = new DateTime(2024, 1, 2) },
+        new OrderData { OrderID = 10250, CustomerID = "HANAR", Role = "Admin", EmployeeID = 4,
+            ShipName = "Hanari Carnes", ShipCity = "Rio de Janeiro", ShipAddress = "Rua do Paço, 67",
+            ShipRegion = "RJ", Mask = "3333", ShipPostalCode = "05454-876", ShipCountry = "Brazil", Freight = 65.83, Verified = true,
+            OrderDate = new DateTime(2024, 1, 3) },
+        new OrderData { OrderID = 10251, CustomerID = "VICTE", Role = "Manager", EmployeeID = 3,
+            ShipName = "Victuailles en stock", ShipCity = "Lyon", ShipAddress = "2, rue du Commerce",
+            ShipRegion = "CJ", Mask = "4444", ShipPostalCode = "69004", ShipCountry = "France", Freight = 41.34, Verified = true,
+            OrderDate = new DateTime(2024, 1, 4) },
+        new OrderData { OrderID = 10252, CustomerID = "SUPRD", Role = "Manager", EmployeeID = 2,
+            ShipName = "Suprêmes délices", ShipCity = "Charleroi", ShipAddress = "Boulevard Tirou, 255",
+            ShipRegion = "CJ", Mask = "5555", ShipPostalCode = "B-6000", ShipCountry = "Belgium", Freight = 51.3, Verified = true,
+            OrderDate = new DateTime(2024, 1, 5) }
+    };
+
+    public async Task OnBeforePaste(PasteEventArgs<AppointmentData> args)
+    {
+        if (args.ClipboardText is string stringData)
+        {
+            string[] dataArray = stringData.Split('\t');
+            if (dataArray.Length >= 5)
+            {
+                int id;
+                if (int.TryParse(dataArray[0], out id))
+                {
+                    DateTime orderDate;
+                    DateTime.TryParse(dataArray[4], out orderDate);
+
+                    args.Data = new List<AppointmentData> {
+                        new AppointmentData {
+                            Id = id,
+                            Subject = $"{dataArray[1]}",
+                            StartTime = orderDate,
+                            EndTime = orderDate.AddHours(1),
+                            Location = dataArray[2],
+                            Description = $"Order from {dataArray[3]}"
+                        }
+                    };
+                }
+            }
+        }
+    }
+
+    public class AppointmentData
+    {
+        public int Id { get; set; }
+        public string Subject { get; set; }
+        public string Location { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
+        public string Description { get; set; }
+        public bool IsAllDay { get; set; }
+        public string RecurrenceRule { get; set; }
+        public string RecurrenceException { get; set; }
+        public int? RecurrenceID { get; set; }
+    }
+
+    public class OrderData
+    {
+        public int OrderID { get; set; }
+        public string CustomerID { get; set; }
+        public string Role { get; set; }
+        public int EmployeeID { get; set; }
+        public string ShipName { get; set; }
+        public string ShipCity { get; set; }
+        public string ShipAddress { get; set; }
+        public string ShipRegion { get; set; }
+        public string Mask { get; set; }
+        public string ShipPostalCode { get; set; }
+        public string ShipCountry { get; set; }
+        public double Freight { get; set; }
+        public bool Verified { get; set; }
+        public DateTime OrderDate { get; set; }
+    }
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSchedulerClipboard", "BlazorSchedulerClipboard\BlazorSchedulerClipboard.csproj", "{8B93C269-14EE-4ACF-9DB3-B8719A483CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSchedulerClipboard.Client", "BlazorSchedulerClipboard.Client\BlazorSchedulerClipboard.Client.csproj", "{B5EF407F-2AA1-4C25-80D7-8CF517F8268C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B93C269-14EE-4ACF-9DB3-B8719A483CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B93C269-14EE-4ACF-9DB3-B8719A483CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B93C269-14EE-4ACF-9DB3-B8719A483CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B93C269-14EE-4ACF-9DB3-B8719A483CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EF407F-2AA1-4C25-80D7-8CF517F8268C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EF407F-2AA1-4C25-80D7-8CF517F8268C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EF407F-2AA1-4C25-80D7-8CF517F8268C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EF407F-2AA1-4C25-80D7-8CF517F8268C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {684B21C7-6D81-41FF-A336-5B2A547E849F}
+	EndGlobalSection
+EndGlobal
