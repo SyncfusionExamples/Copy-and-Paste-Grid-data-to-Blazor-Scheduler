@@ -1,8 +1,8 @@
-# Copy-and-Paste-Grid-data-to-Blazor-Scheduler
+# How to copy and paste Grid data in Blazor Scheduler
 
 ## Repository Description
 
-This repository contains a practical example demonstrating how to copy data from a data grid and paste it directly into a Blazor Scheduler component within a .NET 8 Blazor Web App application. It showcases clipboard integration capabilities for efficient data transfer between UI components.
+This repository contains a practical example demonstrating how to copy data from a data grid and paste it directly into a [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) component within a .NET 8 Blazor Web App application. It showcases clipboard integration capabilities for efficient data transfer between UI components.
 
 ## Overview
 
